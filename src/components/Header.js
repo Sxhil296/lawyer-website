@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Nav from "./Nav";
 import NavMobile from "./NavMobile";
-import Logo from "../assets/img/logo.png";
+import Logo from "../assets/img/logoo.png";
 
 const Header = () => {
   const [bg, setBg] = useState(false);
@@ -24,8 +24,8 @@ const Header = () => {
     >
       <div className="container mx-auto flex items-center justify-between">
         {/* logo */}
-        <a href="#">
-          <img src={Logo} alt="logo" />
+        <a href="#home">
+          <img src={Logo} alt="logo" width={150} />
         </a>
         {/* nav */}
         <Nav />

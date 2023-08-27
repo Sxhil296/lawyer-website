@@ -4,7 +4,6 @@ import React from 'react'
 import { testimonials } from '../data'
 
 
-// import { Swiper, SwiperSlide } from 'swiper/react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
@@ -12,14 +11,15 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import '../testimonialSlider.css'
 
-// import { Autoplay, Pagination } from 'swiper/react';
+// import { Autoplay, Pagination } from 'swiper';
+
 
 
 
 const TestimonialSlider = () => {
   return (
     <>
-    <Swiper pagination={{dynamicBullets : true, clickable: true}} autoplay={{delay: 4000, disableOnInteraction: false}} className='mySwiper'>
+    <Swiper pagination={{dynamicBullets : true, clickable: true}} autoplay={{delay: 4000, disableOnInteraction: false}} modules={[]}  className='mySwiper'>
 {testimonials.map((item, index) => {
   const {text, name, image, position } = item;
     return < SwiperSlide key={index}>

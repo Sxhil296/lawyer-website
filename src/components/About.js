@@ -12,7 +12,7 @@ const About = () => {
           <img src={LawyerImage} alt="lawyer"  className='w-full' />
         </div>
         <div className='max-w-[540px] mx-auto px-6 lg:px-0 mb-[60px] flex flex-col lg:ml-20 '>
-        <p className=" text-justify  font-primary font-medium leading-[30px] pt-6">
+        <p className=" text-justify font-medium leading-[30px] pt-6">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
           consequatur autem ipsum voluptatem dolorem vitae perferendis, unde
           laudantium pariatur nemo voluptatibus molestiae quasi adipisci fugiat

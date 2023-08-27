@@ -33,7 +33,7 @@ export const navigation = [
     href: 'skills',
   },
   {
-    name: 'Contact us',
+    name: 'Contact Me',
     href: 'contact',
   },
 ];

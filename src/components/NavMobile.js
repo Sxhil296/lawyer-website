@@ -33,6 +33,7 @@ const NavMobile = () => {
           return (
             <li key={index}>
               <Link
+              onClick={() => setIsOpen(false)}
                 to={item.href}
                 activeClass="active"
                 spy={true}

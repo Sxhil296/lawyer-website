@@ -17,7 +17,7 @@ const Banner = () => {
           <h1 className="font-primary font-black text-6xl lg:text-7xl text-primary mb-4 lg:mt-[70px] leading-tight lg:leading-[90px]">
           Resolving Disputes,<br /> <span className="text-accent"> Restoring Peace.</span>
           </h1>
-          <p className="max-w-sm mx-auto mb-[50px] lg:mx-0 mg:max-w-[540px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nulla repellendus quaerat laborum sapiente laboriosam voluptates animi veniam omnis exercitationem? Voluptates, enim distinctio facilis earum quia obcaecati sunt atque tempore!</p>
+          <p className="max-w-sm mx-auto mb-[50px] lg:mx-0 mg:max-w-[540px]">Legal conflicts can disrupt your life and business. As a dedicated lawyer, I am committed to bringing resolution to your disputes, allowing you to regain peace of mind. With a focus on effective strategies and personalized advocacy, I work tirelessly to navigate the complexities of the legal system on your behalf.</p>
           {/* appointmen */}
          <div className="lg:absolute mx-auto max-w-[445px] lg:mx-0">
            <Appointment />

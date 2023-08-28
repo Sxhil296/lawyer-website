@@ -8,6 +8,7 @@ import Newsletter from "./components/Newsletter";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import BackToTopBtn from "./components/BackToTopBtn";
+import DirectCallButton from "./components/DirectCallButton";
 
 
 
@@ -23,6 +24,7 @@ const App = () => {
       <Footer />
       <WhatsAppChatIcon />
       <BackToTopBtn />
+      <DirectCallButton />
     </div>
   );
 };

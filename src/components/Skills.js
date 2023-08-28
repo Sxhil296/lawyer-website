@@ -9,10 +9,7 @@ const Skills = () => {
       <div className="container mx-auto text-center">
         <h2 className="text-5xl font-primary font-extrabold mb-4">What I do</h2>
         <p className="max-w-[540px] mx-auto px-6 lg:px-0 mb-[60px]">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-          consequatur autem ipsum voluptatem dolorem vitae perferendis, unde
-          laudantium pariatur nemo voluptatibus molestiae quasi adipisci fugiat
-          deleniti alias ipsa quae iste.
+        Navigating the legal landscape can be overwhelming. With a commitment to justice and expertise in various legal domains, I provide tailored solutions that prioritize your rights and interests. Let me guide you through legal complexities, ensuring a smoother path to resolution and peace of mind.
         </p>
         {/* skills grid */}
         <div className="lg:grid lg:grid-cols-3 gap-12">
